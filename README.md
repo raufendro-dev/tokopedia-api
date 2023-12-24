@@ -2,7 +2,8 @@
 
 Tokopedia API adalah API unofficial untuk mendapatkan data item dari hasil pencarian barang berbentuk json. Tokopedia API merupakan web scraping dari halaman https://www.tokopedia.com/
 
-
+### Run
+Live link sample : http://103.193.178.139:2701/tokopedia?cari=macbook%20pro%20m1
 
 
 ## Cara penggunaan
