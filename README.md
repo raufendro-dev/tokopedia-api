@@ -15,10 +15,11 @@ Pertama install terlebih dahulu library python berikut
 ### Run WebServer
 Jalankan file webAPI
 - python3 webAPI.py
-- buka pada browser, contoh : https://localhost/tokopedia?cari=laptop
+- buka pada browser, contoh : https://localhost:2701/tokopedia?cari=laptop
 
 ### Catatan
 - Link pada browser bisa menggunakan ip atau domain anda
+- Port bisa diubah di webAPI.py
 - File logpengunjung.log adalah log dari pencarian user. Anda bisa menggunakannya jika dibutuhkan
 
 
