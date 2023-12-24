@@ -9,9 +9,9 @@ Tokopedia API adalah API unofficial untuk mendapatkan data item dari hasil penca
 
 ### Install Library Python
 Pertama install terlebih dahulu library python berikut
-Flask
-BeautifulSoup4
-Selenium
+- Flask
+- BeautifulSoup4
+- Selenium
 ### Run WebServer
 Jalankan file webAPI
 - python3 webAPI.py
