@@ -1,0 +1,19 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.10:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: laptop
+INFO:werkzeug:192.168.1.10 - - [25/Dec/2023 08:46:26] "GET /tokopedia?cari=laptop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.10 - - [25/Dec/2023 08:46:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.10:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: laptop
+INFO:werkzeug:192.168.1.10 - - [25/Dec/2023 08:48:44] "GET /tokopedia?cari=laptop HTTP/1.1" 200 -

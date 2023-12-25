@@ -31,10 +31,14 @@ def bukabrowser(query):
             urlitem=base_url+urlitem
         harga = area.find('div', class_="prd_link-product-price css-h66vau").get_text()
         toko = str(area.find('span', class_="prd_link-shop-name css-1kdc32b flip")).replace('<span class="prd_link-shop-name css-1kdc32b flip" data-testid="linkShopName">', '').replace('</span>', '')
+        rating = str(area.find('span', class_="prd_rating-average-text css-t70v7i")).replace('<span class="prd_rating-average-text css-t70v7i" data-testid="">', '').replace('</span>', '')
+        terjual = str(area.find('span', class_="prd_label-integrity css-1sgek4h")).replace('<span class="prd_label-integrity css-1sgek4h" data-testid="">', '').replace('</span>', '')
         value = {
             'nama':nama,
             'harga':harga,
             'toko':toko,
+            'rating':rating,
+            'terjual':terjual,
             'link':urlitem
         }
         list_cari.append(value)
@@ -50,5 +54,4 @@ def bukabrowser(query):
 
         
     
-
 
